@@ -1,0 +1,13 @@
+in command line type"
+
+"set FLASK_APP=main"
+
+"flask run"
+
+
+when making changes (assuming terminal is still running)
+
+1) run the file on VSCode
+2) cancel the process of the terminal by pressing Ctrl+C
+3) type "flask run"
+4) refresh the web browser

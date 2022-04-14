@@ -1,5 +1,10 @@
 <html>
     <head>
+        
+        <!-- first comment in CSS file-->
+    <link type = "text/css" rel = "stylesheet" href = "{{ url_for('static', filename = 'styles/pillow.css')}}" >
+    
+
     <title>Pillow</title> 
     </head>
     <body class = "editor-note">
@@ -9,22 +14,18 @@
         </span>
     </body>
     <p>
-        <img src = "{{url_for('static', filename = 'pillow.jpg')}}" width="300" height="300" />
-        <span style = "font-size: 5px">
+        <img src = "{{url_for('static', filename = 'images/pillow.jpg')}}" width="300" height="300" />
             <h5>THE HORROR!!!</h5> <!-- sets header sizes between h1 (biggest) to h6 (smallest)-->
-        </span>
     </p>
 
     <!--shows a list -->
     <u1>
-        <span style = "font-size: 24px;">
-        <span style="color: rgb(3, 81, 100);">
+        
             <p>DETAILS:</p>
             <li>SUSPECT: Pillow</li>
             <li>VICTIM: Baby Passum</li>
             <li>TIME OF MURDER: 6 a.m.</li>
             <li>BOUNTY: $1,000,000</li>
             <li><a href = "http://127.0.0.1:5000/noodle">Accomplice</a></li> <!--link creation-->
-        </span>
     </u1>
 <html>

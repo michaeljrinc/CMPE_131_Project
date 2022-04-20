@@ -41,4 +41,4 @@ def user(name):
 '''
 
 if __name__ == "main": #runs the app
-    app.run()
+    app.run(debug = True) #allows for changes to be seen without restarting the server

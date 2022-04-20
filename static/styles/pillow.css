@@ -6,7 +6,7 @@
     border: 1 px solid black;
 }*/
 
-
+/*adds a font-family called test for other elements to inherit*/
 @font-face {
     font-family: test;
     src: url('Raleway-ExtraBold.ttf');
@@ -16,7 +16,21 @@
 }
 
 p,li{
-    font-family: test;
+    font-family: test; /*declaring as a member of font-family test*/
     color:palevioletred;
     font-size: 20px;
+}
+
+.center{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 50%;
+    filter:saturate(200%);
+}
+
+.editor-note{
+    font-size: 64px;
+    color: red;
 }

@@ -1,20 +1,16 @@
 <html>
     <head>
         
-        <!-- first comment in CSS file-->
+    <!-- Links CSS file-->
     <link type = "text/css" rel = "stylesheet" href = "{{ url_for('static', filename = 'styles/pillow.css')}}" >
-    
-
     <title>Pillow</title> 
     </head>
     <body class = "editor-note">
-        <span style = "font-size: 64px">
-        <span style = "color: rgba(207, 11, 11, 0.685)">
             MOST WANTED: KILLER ON THE LOOSE! 
-        </span>
     </body>
+    <h1></h1>
     <p>
-        <img src = "{{url_for('static', filename = 'images/pillow.jpg')}}" width="300" height="300" />
+        <img src = "{{url_for('static', filename = 'images/pillow.jpg')}}" class = "center" /> <!--calls center class in CSS FIle-->
             <h5>THE HORROR!!!</h5> <!-- sets header sizes between h1 (biggest) to h6 (smallest)-->
     </p>
 
@@ -28,4 +24,6 @@
             <li>BOUNTY: $1,000,000</li>
             <li><a href = "http://127.0.0.1:5000/noodle">Accomplice</a></li> <!--link creation-->
     </u1>
+    <script type = "text/javascript" src = "{{url_for('static',filename = 'scripts/pillow.js')}}"></script>
+                <!--needs to be at the end of the file cause it needs to be loaded after all the text is loaded-->
 <html>

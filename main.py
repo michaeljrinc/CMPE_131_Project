@@ -21,7 +21,7 @@ def home(): #returns what is being displayed on the page using basic text
 
 @app.route("/", methods=['GET','POST'])
 def home(): #returns what is being displayed on the page using html file
-    return render_template("home.html") #inline html
+    return render_template("index.html") #inline html
 
 @app.route("/login",methods = ['GET','POST'])
 def login():

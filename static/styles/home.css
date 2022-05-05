@@ -1,10 +1,10 @@
 .Title{
     font-size: 64px;
     color:rgb(255, 196, 45);
-    text-shadow: -5px 5px 7.5px black;
+    text-shadow: -5px 5px 5px black;
     background-color:rgb(2, 50, 112);
     height: 100px;
-    width: 1360px;
+    width: 1356px;
     padding-left: 20px;
     padding-top: 10px;
     margin-top: 0px;  
@@ -18,13 +18,14 @@ html{
 
 .logo{
     width: 100px;
-    height: 100px;
+    height: 120px;
     margin-left: 1230px;
-    margin-top: -150px;
+    margin-top: -155px;
     /*background-color:rgb(2, 50, 112);*/
     filter:saturate(200%);
-      
 }
+
+
 
 /*.TopDivider{
     border: 2px solid white;

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{%block title%}Login{%endblock%}
+
+
+
+{%block content%}
+
+        <!--form is a way to send information to a website-->
+        <link type = "text/css" rel = "stylesheet" href = "{{ url_for('static', filename = 'styles/login.css')}}">
+
+        <form class = "Login" action = "#" method = "post"> <!--# means stay on the same page and post will post that information-->
+            <p>Username:</p>
+            <p><input type = "text" name = "nm"></p> <!--name will be passed to python file-->
+            <p>Password:</p>
+            <p><input type = "password" name = "ps"></p>
+            <input type = "submit" value = "Login">
+        </form>
+
+       
+
+
+{% endblock %}
+
+
